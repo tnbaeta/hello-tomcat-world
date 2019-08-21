@@ -4,4 +4,24 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>HelloTomcatWorldServlet</servlet-name>
+  	<display-name>HelloTomcatWorldServlet</display-name>
+  	<description></description>
+  	<servlet-class>lab.illfact.hellotomcatworld.HelloTomcatWorldServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HelloTomcatWorld</servlet-name>
+  	<display-name>HelloTomcatWorld</display-name>
+  	<description></description>
+  	<servlet-class>lab.illfact.hellotomcatworld.HelloTomcatWorld</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HelloTomcatWorldServlet</servlet-name>
+  	<url-pattern>/HelloTomcatWorldServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HelloTomcatWorld</servlet-name>
+  	<url-pattern>/HelloTomcatWorld</url-pattern>
+  </servlet-mapping>
 </web-app>

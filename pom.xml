@@ -14,8 +14,6 @@
   
   <scm>
     <developerConnection>scm:git:https://github.com/tnbaeta/hello-tomcat-world.git</developerConnection>
-    <connection>scm:git:https://github.com/tnbaeta/hello-tomcat-world.git</connection>
-    <url>scm:git:https://github.com/tnbaeta/hello-tomcat-world.git</url>
   </scm>
 
   <distributionManagement>

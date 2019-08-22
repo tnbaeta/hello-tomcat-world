@@ -3,7 +3,7 @@
   <groupId>lab.illfact.hellotomcatworld</groupId>
   <artifactId>HelloTomcatWorld</artifactId>
   <packaging>war</packaging>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.0-SNAPSHOT</version>
   <name>HelloTomcatWorld Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
@@ -15,14 +15,13 @@
   
   <scm>
     <developerConnection>scm:git:https://github.com/tnbaeta/hello-tomcat-world.git</developerConnection>
-    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
     <repository>
       <id>Artifactory</id>
       <name>releases</name>
-      <url>http://192.168.0.157:8081/artifactory/releases/</url>
+      <url>http://artifactory-01a.corp.local:8081/artifactory/releases/</url>
     </repository>
     <snapshotRepository>
     	<id>Artifactory</id>

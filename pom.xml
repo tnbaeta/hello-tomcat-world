@@ -3,7 +3,7 @@
   <groupId>lab.illfact.hellotomcatworld</groupId>
   <artifactId>HelloTomcatWorld</artifactId>
   <packaging>war</packaging>
-  <version>1.2-SNAPSHOT</version>
+  <version>1.2</version>
   <name>HelloTomcatWorld Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
@@ -15,7 +15,7 @@
   
   <scm>
     <developerConnection>scm:git:https://github.com/tnbaeta/hello-tomcat-world.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>v1.2</tag>
   </scm>
 
   <distributionManagement>

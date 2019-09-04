@@ -15,7 +15,7 @@
   
   <scm>
     <developerConnection>scm:git:https://github.com/tnbaeta/hello-tomcat-world.git</developerConnection>
-    <tag>my-branch</tag>
+    <tag>my-branch2</tag>
   </scm>
 
   <distributionManagement>

@@ -37,14 +37,6 @@
       <version>4.0.1</version>
       <scope>provided</scope>
     </dependency>
-    
-    <dependency>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-war-plugin</artifactId>
-      <version>3.2.3</version>
-      <classifier>war</classifier>
-    </dependency>
-    
   </dependencies>
 
   <build>

@@ -37,6 +37,14 @@
       <version>4.0.1</version>
       <scope>provided</scope>
     </dependency>
+    
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-war-plugin</artifactId>
+      <version>3.2.3</version>
+      <classifier>war</classifier>
+    </dependency>
+    
   </dependencies>
 
   <build>
@@ -44,14 +52,7 @@
     <finalName>${project.artifactId}-${project.version}</finalName>
 
     <plugins>
-      
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.2.3</version>
-        <classifier>war</classifier>
-      </plugin>
-      
+     
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
